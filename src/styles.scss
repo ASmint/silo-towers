@@ -1,0 +1,183 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  height: 100vh;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/*
+main style
+ */
+
+body {
+  background: #fff;
+  color: #888;
+  font: 300 16px/22px 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial,
+  sans-serif;
+}
+
+.container {
+  height: 100%;
+  background-color: #2d2d32;
+  background-repeat: repeat-y;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: wrap;
+  padding: 20px 10px 20px 10px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding-top: 60px;
+  }
+}
+
+/* svg style */
+
+.st828{fill:none;stroke:#21B149;stroke-width:3;stroke-miterlimit:10;}
+.st829{fill:none;stroke:#EA3F3F;stroke-width:3;stroke-miterlimit:10;}
+.st1182{fill:#CBCBCB;}
+.st1188{opacity:0.5;fill-rule:evenodd;clip-rule:evenodd;fill:#21B249;}
+.st1189{fill:none;stroke:#8B959F;stroke-width:4;stroke-miterlimit:22.9256;}
